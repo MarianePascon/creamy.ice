@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Quicksand';
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2D95C;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   padding-top: 20px;
+
+    
+}
+
+.menu ul li a{
+    font-size: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    
+}
+
+.banner img{
+    width: 100%;
+}
+
+h2{
+    font-size: 36px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 100px;
+}
+
+.esquerda img{
+width: 300px;
+}
+
+.direita{
+     width: 500px;
+}
+.direita p{
+    font-size: 24px;
+}
+
+.banner2 img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+footer{
+    background-color: #F2D95C;
+    padding-bottom: 50px;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+}
+
+.esquer img{
+    width: 200px;
+}
+
+.meio p img{
+    width: 40px;
+}
+
+.meio p{
+    font-size: 24px;
+}
+
+.direi p img{
+    width: 30px;
+   
+}
+
+.direi p{
+    font-size: 24px;
+   
+}
+
+hr{
+    color: #BF793B;
+}
